@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            background-color: red;
+            color: white;
+            font-size: 24px;
+            border: none;
+            padding: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="myButton" onclick="changeText()">بقولك🌚✨</button>
+    
+    <script>
+        function changeText() {
+            document.getElementById("myButton").innerHTML = "بحبك 😍🤙🏻";
+        }
+    </script>
+</body>
+</html>
